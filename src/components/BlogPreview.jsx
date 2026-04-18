@@ -5,7 +5,7 @@ const fallbackImage = 'https://images.unsplash.com/photo-1517245386807-bb43f82c3
 
 const blogPosts = [
   {
-    image: '/assets/images/blog/blog-1.jpg',
+    image: '/Iron-Sharpens-Iron/assets/images/blog/blog-1.jpg',
     category: 'Leadership',
     title: 'The Future of Leadership: 5 Trends Shaping Business in 2026',
     excerpt: 'Explore the key leadership trends that are transforming how organizations approach growth and team management.',
@@ -13,7 +13,7 @@ const blogPosts = [
     readTime: '5 min read',
   },
   {
-    image: '/assets/images/blog/blog-2.jpg',
+    image: '/Iron-Sharpens-Iron/assets/images/blog/blog-2.jpg',
     category: 'Business Strategy',
     title: 'Building Sustainable Partnerships: A Guide for Entrepreneurs',
     excerpt: 'Learn how to forge meaningful business relationships that drive mutual growth and long-term success.',
@@ -21,7 +21,7 @@ const blogPosts = [
     readTime: '7 min read',
   },
   {
-    image: '/assets/images/blog/blog-3.jpg',
+    image: '/Iron-Sharpens-Iron/assets/images/blog/blog-3.jpg',
     category: 'Personal Development',
     title: 'From Good to Great: Elevating Your Professional Journey',
     excerpt: 'Practical strategies to accelerate your career growth and achieve your full potential.',

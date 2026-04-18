@@ -36,10 +36,10 @@ export default function Gallery() {
   useEffect(() => {
     const imageExtensions = ['jpg', 'jpeg', 'png', 'webp', 'gif']
     const patterns = [
-      (i, ext) => `/assets/images/gallery/gallery-${i}.${ext}`,
-      (i, ext) => `/assets/images/gallery/img-${i}.${ext}`,
-      (i, ext) => `/assets/images/gallery/${i}.${ext}`,
-      (i, ext) => `/assets/images/gallery/image-${i}.${ext}`,
+      (i, ext) => `/Iron-Sharpens-Iron/assets/images/gallery/gallery-${i}.${ext}`,
+      (i, ext) => `/Iron-Sharpens-Iron/assets/images/gallery/img-${i}.${ext}`,
+      (i, ext) => `/Iron-Sharpens-Iron/assets/images/gallery/${i}.${ext}`,
+      (i, ext) => `/Iron-Sharpens-Iron/assets/images/gallery/image-${i}.${ext}`,
     ]
     const foundImages = []
 

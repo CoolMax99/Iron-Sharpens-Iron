@@ -5,28 +5,28 @@ const fallbackImage = 'https://images.unsplash.com/photo-1517245386807-bb43f82c3
 
 const events = [
   {
-    image: '/assets/images/portfolio/event-1.jpg',
+    image: '/Iron-Sharpens-Iron/assets/images/portfolio/event-1.jpg',
     title: 'Iron Sharpens Iron 2026',
     date: 'March 15, 2026',
     location: 'Sandton, Johannesburg',
     category: 'Flagship Event',
   },
   {
-    image: '/assets/images/portfolio/event-2.jpg',
+    image: '/Iron-Sharpens-Iron/assets/images/portfolio/event-2.jpg',
     title: 'Leadership Summit 2026',
     date: 'February 8, 2026',
     location: 'Cape Town',
     category: 'Conference',
   },
   {
-    image: '/assets/images/portfolio/event-3.jpg',
+    image: '/Iron-Sharpens-Iron/assets/images/portfolio/event-3.jpg',
     title: 'CEO Masterclass Series',
     date: 'January 20, 2026',
     location: 'Virtual / Hybrid',
     category: 'Workshop',
   },
   {
-    image: '/assets/images/portfolio/event-4.jpg',
+    image: '/Iron-Sharpens-Iron/assets/images/portfolio/event-4.jpg',
     title: 'Business Networking Gala',
     date: 'December 10, 2025',
     location: 'Durban',

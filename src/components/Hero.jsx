@@ -64,9 +64,9 @@ export default function Hero() {
           muted
           playsInline
           onLoadedData={() => setVideoLoaded(true)}
-          poster="/assets/video/hero-poster.jpg"
+          poster="/Iron-Sharpens-Iron/assets/video/hero-poster.jpg"
         >
-          <source src="/assets/video/hero.mp4" type="video/mp4" />
+          <source src="/Iron-Sharpens-Iron/assets/video/hero.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 gradient-overlay" />
       </div>

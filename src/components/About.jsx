@@ -65,7 +65,7 @@ export default function About() {
           >
             <div className="relative z-10">
               <img
-                src="/assets/images/about-team.jpg"
+                src="/Iron-Sharpens-Iron/assets/images/about-team.jpg"
                 alt="Team collaboration"
                 className="w-full h-auto rounded-lg shadow-2xl"
                 onError={(e) => {
