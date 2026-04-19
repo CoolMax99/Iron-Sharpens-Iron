@@ -34,14 +34,11 @@ export default function Gallery() {
   const [loaded, setLoaded] = useState(false)
 
   useEffect(() => {
-    const imageExtensions = ['jpg', 'jpeg', 'png', 'webp', 'gif']
-    const patterns = [
-      (i, ext) => `/Iron-Sharpens-Iron/assets/images/gallery/gallery-${i}.${ext}`,
-      (i, ext) => `/Iron-Sharpens-Iron/assets/images/gallery/img-${i}.${ext}`,
-      (i, ext) => `/Iron-Sharpens-Iron/assets/images/gallery/${i}.${ext}`,
-      (i, ext) => `/Iron-Sharpens-Iron/assets/images/gallery/image-${i}.${ext}`,
+    const knownImages = [
+      '/Iron-Sharpens-Iron/assets/images/gallery/gallery-1.png',
+      '/Iron-Sharpens-Iron/assets/images/gallery/gallery-2.png',
+      '/Iron-Sharpens-Iron/assets/images/gallery/gallery-3.png',
     ]
-    const foundImages = []
 
     const checkImage = (src) => {
       return new Promise((resolve) => {
@@ -53,19 +50,8 @@ export default function Gallery() {
     }
 
     const findImages = async () => {
-      for (const pattern of patterns) {
-        for (let i = 1; i <= 20; i++) {
-          for (const ext of imageExtensions) {
-            const src = pattern(i, ext)
-            const exists = await checkImage(src)
-            if (exists) {
-              foundImages.push(src)
-            }
-          }
-        }
-        if (foundImages.length > 0) break
-      }
-      
+      const results = await Promise.all(knownImages.map(src => checkImage(src)))
+      const foundImages = knownImages.filter((_, i) => results[i])
       setImages(foundImages)
       setLoaded(true)
     }

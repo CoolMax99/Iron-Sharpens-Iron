@@ -63,8 +63,8 @@ export default function Hero() {
           loop
           muted
           playsInline
+          preload="auto"
           onLoadedData={() => setVideoLoaded(true)}
-          poster="/Iron-Sharpens-Iron/assets/video/hero-poster.jpg"
         >
           <source src="/Iron-Sharpens-Iron/assets/video/hero.mp4" type="video/mp4" />
         </video>

@@ -16,8 +16,8 @@ export default {
         body: ['Merriweather', 'serif'],
       },
       animation: {
-        'scroll-left': 'scroll-left 30s linear infinite',
-        'scroll-right': 'scroll-right 30s linear infinite',
+        'scroll-left': 'scroll-left 8s linear infinite',
+        'scroll-right': 'scroll-right 8s linear infinite',
       },
       keyframes: {
         'scroll-left': {
