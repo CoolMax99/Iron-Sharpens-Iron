@@ -1,18 +1,18 @@
-import { Helmet } from 'react-helmet'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Services from './components/Services'
 import IronSharpensIron from './components/IronSharpensIron'
 import Portfolio from './components/Portfolio'
+import Sponsors from './components/Sponsors'
 import Gallery from './components/Gallery'
 import Contact from './components/Contact'
-import BlogPreview from './components/BlogPreview'
 import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <>
+    <HelmetProvider>
       <Helmet>
         <title>Insimbi Ilola Insimbi | Leadership & Business Development</title>
         <meta name="description" content="Empowering professionals and entrepreneurs through leadership coaching, corporate training, and the Iron Sharpens Iron event platform." />
@@ -34,11 +34,11 @@ export default function App() {
         <Services />
         <IronSharpensIron />
         <Portfolio />
+        <Sponsors />
         <Gallery />
         <Contact />
-        <BlogPreview />
         <Footer />
       </div>
-    </>
+    </HelmetProvider>
   )
 }

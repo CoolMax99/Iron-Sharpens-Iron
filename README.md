@@ -86,6 +86,7 @@ insimbi-ilola-insimbi/
 ### 1. Hero Video
 
 Place your video file at:
+
 ```
 public/assets/video/hero.mp4
 ```
@@ -95,6 +96,7 @@ Supported format: MP4 (H.264)
 ### 2. Gallery Images
 
 Place your 7 images at:
+
 ```
 public/assets/images/gallery/gallery-1.jpg
 public/assets/images/gallery/gallery-2.jpg
@@ -125,10 +127,11 @@ Recommended size: 1920x1080 or similar aspect ratio
 3. **Services** - Service cards
 4. **Iron Sharpens Iron** - Flagship event
 5. **Portfolio** - Past events
-6. **Gallery** - Images in continuous motion
-7. **Contact** - Form and contact info
-8. **Insights** - Blog preview
-9. **Footer** - Social links and navigation
+6. **Sponsors** - images of Partners
+7. **Gallery** - Images in continuous motion
+8. **Contact** - Form and contact info
+9. **Insights** - Blog preview
+10. **Footer** - Social links and navigation
 
 ## License
 

@@ -9,6 +9,7 @@ const navLinks = [
   { name: 'Services', to: 'services' },
   { name: 'Iron Sharpens Iron', to: 'iron-sharpens-iron' },
   { name: 'Portfolio', to: 'portfolio' },
+  { name: 'Partners', to: 'partners' },
   { name: 'Gallery', to: 'gallery' },
   { name: 'Contact', to: 'contact' },
   { name: 'Insights', to: 'insights' },

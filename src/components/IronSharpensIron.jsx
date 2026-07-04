@@ -131,7 +131,7 @@ export default function IronSharpensIron() {
           >
             <div className="relative z-10">
               <img
-                src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80"
+                src="/Iron-Sharpens-Iron/assets/images/portfolio/event-66.jpeg"
                 alt="Iron Sharpens Iron Event"
                 className="w-full h-auto rounded-lg shadow-2xl"
               />
